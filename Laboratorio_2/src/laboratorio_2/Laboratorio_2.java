@@ -81,6 +81,10 @@ entrada.nextLine();// Limpieza del buffer
         if (opcion.equals("s")) {
             bandera = true;
             contador2 = 1;
+            tot_pasajes = 0;
+            tot_bar = 0;
+            tot_salidas = 0;
+            totales = 0;
         }else{
             bandera = false;
             }
